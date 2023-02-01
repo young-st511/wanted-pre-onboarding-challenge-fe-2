@@ -1,0 +1,22 @@
+{
+  "name": "wanted-pre-onboarding-challenge-fe-2",
+  "version": "0.0.1",
+  "description": "Wanted Typescript Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/young-st511/wanted-pre-onboarding-challenge-fe-2.git"
+  },
+  "author": "Jung Young-Hun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/young-st511/wanted-pre-onboarding-challenge-fe-2/issues"
+  },
+  "homepage": "https://github.com/young-st511/wanted-pre-onboarding-challenge-fe-2#readme",
+  "dependencies": {
+    "jsdoc": "^4.0.0"
+  }
+}
