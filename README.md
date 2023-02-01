@@ -76,3 +76,25 @@ Item {
   property(optional),
 }
 ```
+
+## JSDoc
+
+### Optional Parameters
+
+아래와 같이 대괄호([])를 이용해 작성하면 Optional Parameter를 작성할 수 있다.
+
+```JS
+/**
+ * Class representing a Todo
+ */
+class Todo {
+  /**
+   * Create a Todo
+   * @param {string} todoId - Todo's ID
+   * @param {string[]} [todoTags] - Todo's Tags **(Optional)**
+   */
+  constructor(todoId, todoTags) {
+  }
+
+}
+```
