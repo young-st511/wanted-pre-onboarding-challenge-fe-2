@@ -42,28 +42,52 @@ class Todo {
    * @param {string[]} [todoTags] - Todo's Tags(Optional)
    */
   constructor(todoId, todoContent, todoCategory, isTodoComplete, todoTags) {}
+
+  /**
+   * Update Todo's title
+   * @param {string} title - Title to change
+   * @returns {Todo} return this Todo
+   */
+  updateTitle = (title) => {};
+
+  /**
+   * Update Todo's Content
+   * @param {string} content - Content to change
+   * @returns {Todo} return this Todo
+   */
+  updateContent = (content) => {};
+
+  /**
+   * Update Todo's completion
+   * @param {string} title - Completion to change
+   * @returns {Todo} return this Todo
+   */
+  updateCompletion = (completion) => {};
+
+  /**
+   * Update Todo's category
+   * @param {string} title - Category to change
+   * @returns {Todo} return this Todo
+   */
+  updateTitle = (category) => {};
+
+  /**
+   * Add a tag to Todo
+   * @param {string} tag - Tag name to add
+   * @returns {Todo} return this Todo
+   */
+  addTag = (tagName) => {};
+
+  /**
+   * Delete a tag from Todo
+   * @param {string} tag - Tag name to delete
+   * @returns {Todo} return this Todo
+   */
+  deleteTag = (tagName) => {};
+
+  /**
+   * Delete all tags from Todo
+   * @returns {Todo} return this Todo
+   */
+  deleteAllTags = () => {};
 }
-
-/**
- * Update Todo's title
- * @param {string} title - Title to change
- */
-Todo.prototype.updateTitle = (title) => {};
-
-/**
- * Update Todo's Content
- * @param {string} content - Content to change
- */
-Todo.prototype.updateContent = (content) => {};
-
-/**
- * Update Todo's completion
- * @param {string} title - Completion to change
- */
-Todo.prototype.updateCompletion = (completion) => {};
-
-/**
- * Update Todo's category
- * @param {string} title - Category to change
- */
-Todo.prototype.updateTitle = (category) => {};
