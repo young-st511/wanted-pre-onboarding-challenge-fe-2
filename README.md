@@ -1,5 +1,7 @@
 # 원티드 프론트엔드 2023-2월 챌린지 - Typescript
 
+## [🔗 Document(GitHub Page)](https://young-st511.github.io/wanted-pre-onboarding-challenge-fe-2/)
+
 > ## TOC
 >
 > - [자기소개](#-🧑🏻‍💻-자기소개)
